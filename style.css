@@ -1,0 +1,312 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body { 
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: #f9f6ee;
+    
+}
+
+
+.header__notext {
+    width: 53px;
+    height: 44px;
+    cursor: pointer;
+}
+
+.osh-logo {
+    width: 273px;
+    height: 229px;
+    margin: 66px 42px;
+    margin-top: 100px;
+    margin-bottom: 5px;
+}
+
+.slogan-home {
+    font-size: 24px;
+    font-family: "millisime", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    margin-bottom: 28px;
+    margin-left: 42px;
+    margin-right: 50px;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 17px;
+    
+}
+
+.cta {
+    background-color: #04bf9d;
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px 16px;
+    border-radius: 20px;
+    color: black;
+    cursor: pointer;
+    box-shadow: 0 0 15px rgba(0, 0, 0, .25);
+    font-size: 14px;
+    font-family: "area-extended", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    align-items: center;
+
+}
+
+.cta:hover {
+    background: #009f7d;
+    color: #f9f6ee;
+}
+
+.vision-icon {
+    width: 28px;
+    height: 15px;
+    margin-left: 5px;
+
+}
+
+header nav img {
+    width: 10px;
+    height: 10px;
+}
+
+header nav li a {
+    background-color: #f23041;
+    width: 93px;
+    height: 21px;
+    /* display: inline; */
+    padding: 7px 10px;
+    color: black;
+    text-decoration: none;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, .25);
+
+}
+
+header nav li a:hover {
+    background: #df0032;
+    color: black;
+}
+
+header nav li {
+    list-style-type: none;
+    display: inline;
+}
+
+
+footer {
+    background-color: #f23041;
+    height: 55px;
+    padding: 0 5px;
+}
+
+footer p {
+    text-align: center;
+    padding: 17px;
+    font-size: 14px;
+    font-family: "millisime", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+
+
+}
+
+footer a {
+    color: black;
+
+}
+
+footer a:hover {
+    color: #f9f6ee;
+
+}
+
+main {
+    flex-grow: 1;
+}
+
+.main__homebackground {
+    background: url(OSH-images/home-background-faded.png) no-repeat;
+    width: 375px;
+    height: 472px;
+}
+
+main div {
+    width: 375px;
+    height: 433px;
+    background: url(OSH-images/background-explore.png) no-repeat;
+    background-size: cover;
+
+}
+
+
+.explore-h1 {
+    font-size: 36px;
+    text-align: left;
+    margin-left: 42px;
+    margin-top: 20px;
+    font-family: "area-extended", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+
+
+}
+
+.sustainability-h1 {
+    color: #04bf9d;
+    font-size: 36px;
+    font-family: "area-normal", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    margin-left: 42px;
+    margin-top: 45px;
+    margin-bottom: 15px;
+}
+
+.sustainability-icon-experiences {
+    width: 33px;
+    height: 31px;
+}
+
+.sustainability-h2 {
+    font-size: 24px;
+    font-family: "area-extended", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    margin-left: 42px;
+    margin-bottom: 95px;
+}
+
+
+main ol li {
+    font-size: 30px;
+    font-size: 30px;
+    font-family: "millisime", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    margin: 30px 80px;
+
+}
+
+main ol p {
+    font-size: 14px;
+    font-family: "millisime", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0 42px;
+
+}
+
+.experiences-h1 {
+    font-size: 36px;
+    font-family: "area-extended", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    color: #6503a6;
+    margin: 42px;
+
+}
+
+.experiences-pictures {
+    width: 146px;
+    height: 167px;
+    margin-bottom: 43px;
+    margin-left: 112px;
+    margin-top: 80px;
+    
+}
+
+main h2 {
+    font-size: 30px;
+    font-family: "millisime", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+p {
+    line-height: 1.5;
+    margin-bottom: 47px;
+}
+
+.social-impact {
+    margin: 30px 50px;
+}
+
+.socialimpact__li {
+    margin: 25px 65px;
+}
+
+.socialimpact__li:last-of-type {
+    margin-bottom: 120px;
+}
+
+.main__names {
+    text-align: center;
+
+}
+.main__experiences {
+    margin: 35px 42px;
+}
+
+.main__experienceslast {
+    margin: 30px 42px;
+    margin-bottom: 80px;
+}
+
+.main__explorehead {
+    font-size: 30px;
+    font-family: "millisime", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    margin-left: 42px;
+
+}
+
+.main__exploresub {
+    font-size: 20px;
+    font-family: "millisime", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    margin-left: 42px;
+
+}
+
+.main__exploretext {
+    font-size: 14px;
+    font-family: "millisime", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 30px 42px;
+
+}
+
+.main__exploretextsub {
+    margin: 30px 42px;
+    margin-top: 10px;
+}
+
+.explore__images {
+    width: 375px;
+    height: 246px;
+    margin-bottom: 30px;
+}
+
+#landing {
+    display: flex;
+    flex-direction: column;
+}
+
+#landing a {
+    align-self: center;
+}
