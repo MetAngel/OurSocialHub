@@ -13,11 +13,13 @@ body {
     
 }
 
+/* homepagina */
 
 .header__notext {
     width: 53px;
     height: 44px;
     cursor: pointer;
+    margin-bottom: 15px;
 }
 
 .osh-logo {
@@ -36,6 +38,7 @@ body {
     margin-bottom: 28px;
     margin-left: 42px;
     margin-right: 50px;
+    color: #333;
 }
 
 header {
@@ -61,6 +64,7 @@ header {
     font-weight: 900;
     font-style: normal;
     align-items: center;
+    text-decoration: underline;
 
 }
 
@@ -85,12 +89,17 @@ header nav li a {
     background-color: #f23041;
     width: 93px;
     height: 21px;
-    /* display: inline; */
     padding: 7px 10px;
     color: black;
     text-decoration: none;
     border-radius: 20px;
     box-shadow: 0 0 15px rgba(0, 0, 0, .25);
+    font-size: 10px;
+    font-family: "area-normal", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    margin-left: 4px;
+
 
 }
 
@@ -102,6 +111,7 @@ header nav li a:hover {
 header nav li {
     list-style-type: none;
     display: inline;
+
 }
 
 
@@ -119,7 +129,6 @@ footer p {
     font-weight: 700;
     font-style: italic;
 
-
 }
 
 footer a {
@@ -136,11 +145,14 @@ main {
     flex-grow: 1;
 }
 
+
 .main__homebackground {
     background: url(OSH-images/home-background-faded.png) no-repeat;
     width: 375px;
-    height: 472px;
+    height: 450px;
 }
+
+/* ----- */
 
 main div {
     width: 375px;
@@ -159,7 +171,6 @@ main div {
     font-family: "area-extended", sans-serif;
     font-weight: 900;
     font-style: normal;
-
 
 }
 
@@ -191,7 +202,6 @@ main div {
 
 main ol li {
     font-size: 30px;
-    font-size: 30px;
     font-family: "millisime", sans-serif;
     font-weight: 700;
     font-style: italic;
@@ -200,7 +210,7 @@ main ol li {
 }
 
 main ol p {
-    font-size: 14px;
+    font-size: 17px;
     font-family: "millisime", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -208,14 +218,21 @@ main ol p {
 
 }
 
+/* experiences pagina */
+
 .experiences-h1 {
     font-size: 36px;
-    font-family: "area-extended", sans-serif;
+    font-family: "area-normal", sans-serif;
     font-weight: 900;
     font-style: normal;
     color: #6503a6;
     margin: 42px;
 
+}
+
+.experiences-h1__icon {
+    width: 33px;
+    height: 31px;
 }
 
 .experiences-pictures {
@@ -226,6 +243,8 @@ main ol p {
     margin-top: 80px;
     
 }
+
+/* ---- */
 
 main h2 {
     font-size: 30px;
@@ -244,11 +263,15 @@ p {
 }
 
 .socialimpact__li {
+    font-size: 19px;
+    font-family: "millisime", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     margin: 25px 65px;
 }
 
 .socialimpact__li:last-of-type {
-    margin-bottom: 120px;
+    margin-bottom: 50px;
 }
 
 .main__names {
@@ -259,10 +282,6 @@ p {
     margin: 35px 42px;
 }
 
-.main__experienceslast {
-    margin: 30px 42px;
-    margin-bottom: 80px;
-}
 
 .main__explorehead {
     font-size: 30px;
@@ -273,8 +292,18 @@ p {
 
 }
 
+.main__exploretextlast {
+    font-size: 17px;
+    font-family: "millisime", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 30px 42px;
+    margin-bottom: 100px;
+
+}
+
 .main__exploresub {
-    font-size: 20px;
+    font-size: 22px;
     font-family: "millisime", sans-serif;
     font-weight: 700;
     font-style: italic;
@@ -283,7 +312,7 @@ p {
 }
 
 .main__exploretext {
-    font-size: 14px;
+    font-size: 17px;
     font-family: "millisime", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -292,6 +321,10 @@ p {
 }
 
 .main__exploretextsub {
+    font-size: 17px;
+    font-family: "millisime", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     margin: 30px 42px;
     margin-top: 10px;
 }
@@ -300,6 +333,7 @@ p {
     width: 375px;
     height: 246px;
     margin-bottom: 30px;
+    margin-top: 65px;
 }
 
 #landing {
@@ -309,4 +343,65 @@ p {
 
 #landing a {
     align-self: center;
+}
+
+.main__funfacts {
+    text-align: center;
+    margin-left: 42px;
+    margin-right: 42px;
+}
+
+.main__funfactslast {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.sustainability__link {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+    margin-left: 42px;
+    margin-right: 42px;
+    color: black;
+    font-size: 14px;
+    font-family: "area-extended", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    text-decoration: underline;
+    background-color: #04bf9d;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, .25);
+    padding: 12px 16px;
+}
+
+.experiences__link {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+    margin-left: 42px;
+    margin-right: 42px;
+    color: black;
+    font-size: 14px;
+    font-family: "area-extended", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    text-decoration: underline;
+    background-color: #04bf9d;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, .25);
+    padding: 12px 16px;
+}
+
+.bronvermelding {
+    text-align: center;
+    font-size: 12px;
+    font-family: "millisime", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    margin-right: 10px;
+
 }
