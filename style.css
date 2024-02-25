@@ -13,31 +13,29 @@ body {
     
 }
 
-/* homepagina */
-
 .header__notext {
     width: 53px;
     height: 44px;
     cursor: pointer;
-    margin-bottom: 15px;
+    margin-bottom: 1em;
 }
 
 .osh-logo {
+    display: block;
+    margin: 2em 3em;
+    margin-top: 5em;
     width: 273px;
     height: 229px;
-    margin: 66px 42px;
-    margin-top: 100px;
-    margin-bottom: 5px;
+
 }
 
-.slogan-home {
-    font-size: 24px;
+#landing h1 {
+    font-size: 1em;
     font-family: "millisime", sans-serif;
     font-weight: 700;
     font-style: italic;
-    margin-bottom: 28px;
-    margin-left: 42px;
-    margin-right: 50px;
+    margin: auto;
+    margin-bottom: 3em;
     color: #333;
 }
 
@@ -46,20 +44,20 @@ header {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding: 17px;
+    padding: 1em;
     
 }
 
-.cta {
+#landing a {
     background-color: #04bf9d;
     display: inline-block;
     text-decoration: none;
-    padding: 15px 16px;
+    padding: 1em 2em;
     border-radius: 20px;
     color: black;
     cursor: pointer;
     box-shadow: 0 0 15px rgba(0, 0, 0, .25);
-    font-size: 14px;
+    font-size: 0.83em;
     font-family: "area-extended", sans-serif;
     font-weight: 900;
     font-style: normal;
@@ -68,7 +66,7 @@ header {
 
 }
 
-.cta:hover {
+#landing a:hover {
     background: #009f7d;
     color: #f9f6ee;
 }
@@ -76,30 +74,27 @@ header {
 .vision-icon {
     width: 28px;
     height: 15px;
-    margin-left: 5px;
+    margin-left: 1em;
 
 }
 
 header nav img {
     width: 10px;
     height: 10px;
+
 }
 
 header nav li a {
     background-color: #f23041;
-    width: 93px;
-    height: 21px;
-    padding: 7px 10px;
     color: black;
     text-decoration: none;
     border-radius: 20px;
     box-shadow: 0 0 15px rgba(0, 0, 0, .25);
-    font-size: 10px;
+    font-size: 0.67em;
     font-family: "area-normal", sans-serif;
     font-weight: 900;
     font-style: normal;
-    margin-left: 4px;
-
+    padding: 0.5em 1em;
 
 }
 
@@ -117,14 +112,13 @@ header nav li {
 
 footer {
     background-color: #f23041;
-    height: 55px;
+    height: 50px;
     padding: 0 5px;
 }
 
 footer p {
     text-align: center;
-    padding: 17px;
-    font-size: 14px;
+    font-size: 0.83em;
     font-family: "millisime", sans-serif;
     font-weight: 700;
     font-style: italic;
@@ -145,14 +139,11 @@ main {
     flex-grow: 1;
 }
 
-
 .main__homebackground {
     background: url(OSH-images/home-background-faded.png) no-repeat;
-    width: 375px;
-    height: 450px;
-}
+    margin: 1em 0;
 
-/* ----- */
+}
 
 main div {
     width: 375px;
@@ -162,12 +153,10 @@ main div {
 
 }
 
-
 .explore-h1 {
-    font-size: 36px;
+    font-size: 2em;
     text-align: left;
-    margin-left: 42px;
-    margin-top: 20px;
+    margin: 1.5em 2em;
     font-family: "area-extended", sans-serif;
     font-weight: 900;
     font-style: normal;
@@ -176,13 +165,11 @@ main div {
 
 .sustainability-h1 {
     color: #04bf9d;
-    font-size: 36px;
+    font-size: 2em;
     font-family: "area-normal", sans-serif;
     font-weight: 900;
     font-style: normal;
-    margin-left: 42px;
-    margin-top: 45px;
-    margin-bottom: 15px;
+    margin: 1em 1.5em;
 }
 
 .sustainability-icon-experiences {
@@ -191,42 +178,68 @@ main div {
 }
 
 .sustainability-h2 {
-    font-size: 24px;
+    font-size: 1.5em;
     font-family: "area-extended", sans-serif;
     font-weight: 900;
     font-style: normal;
-    margin-left: 42px;
-    margin-bottom: 95px;
+    margin: 1em 2em;
+    margin-bottom: 5em;
 }
 
 
 main ol li {
-    font-size: 30px;
+    font-size: 1.5em;
     font-family: "millisime", sans-serif;
     font-weight: 700;
     font-style: italic;
-    margin: 30px 80px;
+    margin: 1em 3em;
 
 }
 
 main ol p {
-    font-size: 17px;
+    font-size: 1em;
     font-family: "millisime", sans-serif;
     font-weight: 400;
     font-style: normal;
-    margin: 0 42px;
+    margin: 1em 2em;
 
 }
 
-/* experiences pagina */
+h2, h3 {
+    font-family: "millisime", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    margin: 1em 2em;
+
+}
+
+h2 {
+    font-size: 1.5em;
+    text-align: center;
+
+}
+
+h3 {
+    font-size: 1.17em;
+
+}
+
+p {
+    font-size: 1em;
+    font-family: "millisime", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5;
+    margin: 1em 2em;
+}
 
 .experiences-h1 {
-    font-size: 36px;
+    font-size: 2em;
     font-family: "area-normal", sans-serif;
     font-weight: 900;
     font-style: normal;
     color: #6503a6;
-    margin: 42px;
+    margin: 1em 1.5em;
 
 }
 
@@ -236,104 +249,36 @@ main ol p {
 }
 
 .experiences-pictures {
+    display: block;
     width: 146px;
     height: 167px;
-    margin-bottom: 43px;
-    margin-left: 112px;
-    margin-top: 80px;
+    margin: auto;
     
 }
 
-/* ---- */
-
-main h2 {
-    font-size: 30px;
-    font-family: "millisime", sans-serif;
-    font-weight: 700;
-    font-style: italic;
-}
-
-p {
-    line-height: 1.5;
-    margin-bottom: 47px;
-}
-
-.social-impact {
-    margin: 30px 50px;
-}
-
-.socialimpact__li {
-    font-size: 19px;
-    font-family: "millisime", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    margin: 25px 65px;
-}
-
-.socialimpact__li:last-of-type {
-    margin-bottom: 50px;
-}
-
-.main__names {
+.main__funfacts {
     text-align: center;
-
-}
-.main__experiences {
-    margin: 35px 42px;
+    margin: 1em 2em;
 }
 
-
-.main__explorehead {
-    font-size: 30px;
-    font-family: "millisime", sans-serif;
-    font-weight: 700;
-    font-style: italic;
-    margin-left: 42px;
-
-}
-
-.main__exploretextlast {
-    font-size: 17px;
+#socialimpact li {
+    font-size: 1em;
     font-family: "millisime", sans-serif;
     font-weight: 400;
     font-style: normal;
-    margin: 30px 42px;
-    margin-bottom: 100px;
-
+    margin: 1em 4em;
 }
 
-.main__exploresub {
-    font-size: 22px;
-    font-family: "millisime", sans-serif;
-    font-weight: 700;
-    font-style: italic;
-    margin-left: 42px;
-
+#socialimpact li:last-of-type {
+    margin-bottom: 2em;
 }
 
-.main__exploretext {
-    font-size: 17px;
-    font-family: "millisime", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    margin: 30px 42px;
-
-}
-
-.main__exploretextsub {
-    font-size: 17px;
-    font-family: "millisime", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    margin: 30px 42px;
-    margin-top: 10px;
-}
-
-.explore__images {
+#main_explore img {
     width: 375px;
     height: 246px;
-    margin-bottom: 30px;
-    margin-top: 65px;
+    margin-bottom: 1em;
+    margin-top: 2em;
+
 }
 
 #landing {
@@ -345,27 +290,11 @@ p {
     align-self: center;
 }
 
-.main__funfacts {
-    text-align: center;
-    margin-left: 42px;
-    margin-right: 42px;
-}
-
-.main__funfactslast {
-    text-align: center;
-    margin-bottom: 100px;
-}
-
-.sustainability__link {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    margin-bottom: 100px;
-    margin-left: 42px;
-    margin-right: 42px;
+main a {
+    display: inline-block;
+    align-items: center;
     color: black;
-    font-size: 14px;
+    font-size: 0.83em;
     font-family: "area-extended", sans-serif;
     font-weight: 900;
     font-style: normal;
@@ -373,35 +302,18 @@ p {
     background-color: #04bf9d;
     border-radius: 20px;
     box-shadow: 0 0 15px rgba(0, 0, 0, .25);
-    padding: 12px 16px;
+    padding: 1em 2em;
+    margin: 1em 2em;
+    margin-bottom: 5em;
+    text-align: center;
 }
 
-.experiences__link {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    margin-bottom: 100px;
-    margin-left: 42px;
-    margin-right: 42px;
-    color: black;
-    font-size: 14px;
-    font-family: "area-extended", sans-serif;
-    font-weight: 900;
-    font-style: normal;
-    text-decoration: underline;
-    background-color: #04bf9d;
-    border-radius: 20px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, .25);
-    padding: 12px 16px;
-}
 
 .bronvermelding {
     text-align: center;
-    font-size: 12px;
+    font-size: 0.67em;
     font-family: "millisime", sans-serif;
     font-weight: 500;
     font-style: italic;
-    margin-right: 10px;
 
 }
